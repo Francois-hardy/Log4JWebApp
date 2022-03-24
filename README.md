@@ -1,0 +1,4 @@
+- Tomcat 9.0.60
+- Python
+- Pip
+- Ncap

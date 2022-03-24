@@ -14,14 +14,18 @@
         </div>
     </div>
     <div>
-        <form method="POST" action="/login">
+        <form method="POST" action="${pageContext.request.contextPath}/login">
             <h1>Hello Again!</h1>
             <p>Welcome Back</p>
             <div>
-                <input type="text" name="uname" placeholder="Username" />
+                <label>
+                    <input type="text" name="uname" placeholder="Username" />
+                </label>
             </div>
             <div>
-                <input type="text" name="password" placeholder="Password" />
+                <label>
+                    <input type="text" name="password" placeholder="Password" />
+                </label>
             </div>
             <button type="submit">Login</button>
             <span>Forgot Password ?</span>
